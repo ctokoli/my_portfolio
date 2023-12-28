@@ -1,3 +1,4 @@
+
 const HomeComponent = () => {
     return ( 
         <div className="home">
