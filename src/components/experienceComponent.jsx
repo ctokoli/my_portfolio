@@ -1,9 +1,9 @@
-const WorkComponent = () => {
+const ExperienceComponent = () => {
     return ( 
-        <div className="work">
-            <h1>Work</h1>
+        <div className="exp">
+            <h1>Experiences</h1>
         </div>
      );
 }
  
-export default WorkComponent;
+export default ExperienceComponent;
