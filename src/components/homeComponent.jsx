@@ -3,7 +3,7 @@ import ContentComponent from "./contentComponet";
 
 const HomeComponent = () => {
     return ( 
-        <div className="home">
+        <div className="home bg-amber-500">
             <SideBarComponent />
             <ContentComponent />
         </div>

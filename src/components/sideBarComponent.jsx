@@ -1,7 +1,7 @@
 const SideBarComponent = () => {
     return ( 
-        <div className="side-bar">
-            <h1>Side Bar</h1>
+        <div className="bg-red-500">
+            <h1 className="text-orange-500">Side Bar</h1>
         </div>
      );
 }
