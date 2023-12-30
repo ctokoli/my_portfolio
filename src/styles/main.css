@@ -540,6 +540,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -554,6 +562,34 @@ video {
 
 .w-1\/5 {
   width: 20%;
+}
+
+.cursor-auto {
+  cursor: auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .bg-amber-500 {
@@ -642,6 +678,42 @@ video {
   --tw-bg-opacity: 0.8;
 }
 
+.bg-opacity-30 {
+  --tw-bg-opacity: 0.3;
+}
+
+.bg-opacity-5 {
+  --tw-bg-opacity: 0.05;
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-0 {
+  --tw-bg-opacity: 0;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
 .text-orange-500 {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity));
@@ -663,6 +735,38 @@ video {
   opacity: 0.1;
 }
 
+.hover\:bg-slate-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-opacity-10:hover {
+  --tw-bg-opacity: 0.1;
+}
+
+.hover\:bg-opacity-5:hover {
+  --tw-bg-opacity: 0.05;
+}
+
+.hover\:opacity-10:hover {
+  opacity: 0.1;
+}
+
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
@@ -671,4 +775,79 @@ video {
   .md\:h-screen {
     height: 100vh;
   }
+}
+
+.\[\&\>li\]\:cursor-pointer>li {
+  cursor: pointer;
+}
+
+.\[\&\>li\]\:cursor-auto>li {
+  cursor: auto;
+}
+
+.\[\&\>li\]\:p-12>li {
+  padding: 3rem;
+}
+
+.\[\&\>li\]\:p-10>li {
+  padding: 2.5rem;
+}
+
+.\[\&\>li\]\:p-8>li {
+  padding: 2rem;
+}
+
+.\[\&\>li\]\:pb-4>li {
+  padding-bottom: 1rem;
+}
+
+.\[\&\>li\]\:pb-6>li {
+  padding-bottom: 1.5rem;
+}
+
+.\[\&\>li\]\:pb-10>li {
+  padding-bottom: 2.5rem;
+}
+
+.\[\&\>li\]\:pb-12>li {
+  padding-bottom: 3rem;
+}
+
+.\[\&\>li\]\:pl-10>li {
+  padding-left: 2.5rem;
+}
+
+.\[\&\>li\]\:pl-12>li {
+  padding-left: 3rem;
+}
+
+.\[\&\>li\]\:text-center>li {
+  text-align: center;
+}
+
+.\[\&\>li\]\:text-lg>li {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.\[\&\>li\]\:text-xl>li {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.\[\&\>li\]\:font-light>li {
+  font-weight: 300;
+}
+
+.\[\&\>li\]\:tracking-wide>li {
+  letter-spacing: 0.025em;
+}
+
+.\[\&\>li\]\:tracking-wider>li {
+  letter-spacing: 0.05em;
+}
+
+.\[\&\>li\]\:hover\:bg-slate-50:hover>li {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
