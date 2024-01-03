@@ -1,0 +1,12 @@
+
+
+body{
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('../assets/back_img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
