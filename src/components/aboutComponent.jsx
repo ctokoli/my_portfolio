@@ -1,8 +1,8 @@
 const AboutComponent = () => {
     return ( 
-        <div className="p-20">
-            <div className="w-20 ">
-                <h1 className="text-2xl border-pink-500 border-b-2 ">About</h1>
+        <div className="p-24">
+            <div className="w-20">
+                <h1 className="text-2xl border-pink-500 border-b-2">About</h1>
             </div>
             <h1 className=" text-6xl mt-20">Cephas Tokoli</h1>
             <h2 className="mt-5 text-3xl text-pink-500">Full-Stack Developer</h2>
