@@ -10,10 +10,11 @@ import ExperienceComponent from './experienceComponent';
 const HomeComponent = () => {
     return ( 
         <Router>
-            <div className="home bg-[#0c1225] bg-opacity-80 md:flex">
+            <div className="home bg-[#0c1225] bg-opacity-80 md:flex ">
                 <SideBarComponent />
                 <Routes>
                     <Route path='/' element={<AboutComponent />} />
+                    <Route path='/about' element={<AboutComponent />} />
                     <Route path='/education'  element={<EducationComponent />} />
                     <Route path='/projects' element={<ProjectComponent />} />
                     <Route path='/contact' element={< ContactComponent />} />
