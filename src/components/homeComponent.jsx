@@ -5,6 +5,7 @@ import EducationComponent from './educationComponent';
 import ProjectComponent from './projectComponent';
 import ContactComponent from './contactComponent';
 import ExperienceComponent from './experienceComponent';
+import MobileMenuComponent from './mobileMenuComponent';
 
 
 const HomeComponent = () => {
@@ -12,6 +13,7 @@ const HomeComponent = () => {
         <Router>
             <div className="home bg-[#0c1225] bg-opacity-80 md:flex ">
                 <SideBarComponent />
+                {/* <MobileMenuComponent /> */}
                 <Routes>
                     <Route path='/' element={<AboutComponent />} />
                     <Route path='/about' element={<AboutComponent />} />
