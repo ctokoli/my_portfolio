@@ -166,5 +166,10 @@ form.w-90 {
   width: 500px;
 }
 
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+}
+}
 
 
