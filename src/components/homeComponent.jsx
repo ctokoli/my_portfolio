@@ -13,7 +13,7 @@ const HomeComponent = () => {
         <Router>
             <div className="home bg-[#0c1225] bg-opacity-80 md:flex ">
                 <SideBarComponent />
-                {/* <MobileMenuComponent /> */}
+                <MobileMenuComponent />
                 <Routes>
                     <Route path='/' element={<AboutComponent />} />
                     <Route path='/about' element={<AboutComponent />} />
