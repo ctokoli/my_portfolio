@@ -4,9 +4,9 @@ const ContactComponent = () => {
             <div className=" w-36 ">
                 <h1 className="text-2xl  border-pink-500 border-b-2 ">Contact</h1>
             </div>
-            <div class="container mx-auto my-8 p-8 bg-white rounded-lg shadow-md w-screen">
+            <div class="container my-8 p-8 bg-white rounded-lg shadow-md ">
                 <h1 class="text-2xl font-semibold mb-6">Contact Us</h1>
-                <form action="#" method="post">
+                <form action="#" method="post" className="w-90">
                     <div class="mb-4">
                         <label for="name" class="block text-gray-600 text-sm font-medium mb-2">Your Name</label>
                         <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500" required />
