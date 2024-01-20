@@ -170,6 +170,10 @@ form.w-90 {
   .sidebar {
     display: none;
 }
+
+.about {
+  padding: 5%;
+}
 }
 
 
