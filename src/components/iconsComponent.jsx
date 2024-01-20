@@ -6,10 +6,10 @@ import { BiLogoGmail } from "react-icons/bi";
 const IconComponent = () => {
     return ( 
        <div className="mt-20 flex pl-10 [&>*]:text-xl gap-5 [&>*]:opacity-30 icons" >
-            <a href="#"><BsLinkedin  /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaGithub /></a>
-            <a href="#"><BiLogoGmail /></a>
+            <a href="https://www.linkedin.com/in/ctokoli"><BsLinkedin  /></a>
+            <a href="https://twitter.com/ctokoli"><FaTwitter /></a>
+            <a href="https://github.com/ctokoli"><FaGithub /></a>
+            <a href="mailto:matumasie@gmail.com"><BiLogoGmail /></a>
        </div>
      );
 }
