@@ -1,5 +1,4 @@
 const TimelineComponents = () => {
-      
     return ( 
         <div className="mt-20 ml-20">
     <div className="timeline">
@@ -30,7 +29,7 @@ const TimelineComponents = () => {
     <div className="timeline__event__icon">
       <i className="lni-slim"></i>
       <div className="timeline__event__date">
-      April 2023 <br/> to <br/>  Oct 2023
+      Feb 2020 <br/> to <br/>  Jan 2024
       </div>
     </div>
     <div className="timeline__event__content">
@@ -53,16 +52,22 @@ const TimelineComponents = () => {
     <div className="timeline__event__icon">
       <i className="lni-burger"></i>
       <div className="timeline__event__date">
-      April 2023 <br/> to <br/>  Oct 2023
+      Nov 2015 <br/> to <br/>  Feb 2018
       </div>
     </div>
     <div className="timeline__event__content">
       <div className="timeline__event__title">
-        Lunch
+      <div className="company"><h3>AFRICAKART.COM, Accra</h3>
+          <h5 className="capitalize text-slate-500">Graphics and Web Designer</h5>
+        </div>
+        <div className="normal-case text-sm pl-4 leading-normal">
+          <ul className="[&>li]:pt-2 list-disc ">
+            <li>Achieved increase in 10K+  website traffic by incorporating engaging graphics that incentivize users to visit. </li>
+            <li>Elevated the company's social media presence, resulting in an increase of 100K plus followers.</li>
+          </ul>
+        </div>
       </div>
-      <div className="timeline__event__description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
-      </div>
+     
     </div>
   </div>
   
