@@ -162,5 +162,9 @@ body{
   bottom: 15px;
 }
 
+form.w-90 {
+  width: 500px;
+}
+
 
 
