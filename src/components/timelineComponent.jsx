@@ -1,6 +1,6 @@
 const TimelineComponents = () => {
     return ( 
-        <div className="mt-20 ml-20">
+        <div className="md:mt-20 md:ml-20">
     <div className="timeline">
   <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
     <div className="timeline__event__icon ">
