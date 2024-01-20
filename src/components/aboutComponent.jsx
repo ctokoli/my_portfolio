@@ -2,7 +2,7 @@ import StacksComponents from "./stacks";
 
 const AboutComponent = () => {
     return ( 
-        <div className=" w-8/12 p-24 ">
+        <div className=" w-8/12 md:p-24 sm:p-5">
             <div className="w-20 mt-5">
                 <h1 className="text-2xl border-pink-500 border-b-2">About</h1>
             </div>
