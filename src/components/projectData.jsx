@@ -17,7 +17,7 @@ const data = [
     {
         "project_name": 'Franko Trading Ecommerce Mobile app',
         "description": 'Franko Trading Mobile App developed with #flutter and Woocommerce API with payment system, cart management, and an address management system.',
-        "project_image" : './images/mobile_app.png',
+        "project_image" : './images/mobile_app.jpg',
         "link": "https://play.google.com/store/apps/details?id=com.frakotg.enterapp&hl=en&gl=US",
         "github": ""
     },
