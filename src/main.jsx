@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './styles/main.css'
 import ReactModal from 'react-modal'
+import 'animate.css';
 
 ReactModal.setAppElement('#root');
 
