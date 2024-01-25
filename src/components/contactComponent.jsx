@@ -10,8 +10,7 @@ const ContactComponent = () => {
             <div className="w-36 ">
                 <h1 className="text-2xl ex-h1 border-pink-500 border-b-2 ">Contact</h1>
             </div>
-            <div class="my-8 p-8 bg-white bg-opacity-40 rounded-lg shadow-md ">
-                
+            <div class="my-8 p-8 bg-white bg-opacity-40 rounded-lg shadow-md animate__animated animate__zoomIn duration-500 delay-200 ">
                 <form onSubmit={handleSubmit} className="w-90">
                     <div class="mb-4">
                         <label for="name" class="block text-slate-100 text-sm font-medium mb-2">Your Name</label>
