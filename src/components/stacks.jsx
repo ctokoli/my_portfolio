@@ -30,7 +30,7 @@ import 'react-tooltip/dist/react-tooltip.css'
 
 const StacksComponents = () => {
     return (
-        <div>
+        <div className="animate__animated animate__fadeInUp duration-500 delay-200">
             <div className="flex mt-5 [&>*]:cursor-pointer [&>*]:text-3xl justify-between  max-w-24  opacity-40">
                 <FaGithub data-tooltip-id="stacks"  data-tooltip-content="Github" />
                 <FaReact data-tooltip-id="stacks"  data-tooltip-content="Reactjs" />
