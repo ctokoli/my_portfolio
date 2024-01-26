@@ -10,7 +10,7 @@ const AboutComponent = () => {
             <h2 className="mt-5 text-3xl text-pink-500 animate__animated animate__fadeInDown duration-500 delay-200">Full-Stack Developer</h2>
             <div className="bg-size md:max-w-24 mt-3 opacity-60 animate__animated animate__slideInLeft duration-500 delay-200">
                 <p className=" md:text-xl md:leading-9 "> I&apos;m a Full-Stack Engineer and Mentor with a strong background in software development with over 4 years of hands-on experience in both frontend and backend development. Skilled in JavaScript, React, Ruby on Rails, and Node.js.</p>
-                <p className="md:text-xl md:leading-9 "> Excelled in remote pair programming and mentoring roles. Actively involved in the development of 50+ projects using Reactjs and other tools.</p>
+                <p className="md:text-xl md:leading-9 "> Excelled in remote pair programming and mentoring roles and was actively involved in the development of 50+ projects using Reactjs and other tools.</p>
             </div>
              <div>
                 <h2 className="mt-5 text-2xl text-pink-500 animate__animated animate__fadeInDown duration-500 delay-200 ">Tech Stacks</h2>
